@@ -2,3 +2,6 @@ touch to create new file
 git init                              git tracks chnges in file
  
 git status
+git add .
+
+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
