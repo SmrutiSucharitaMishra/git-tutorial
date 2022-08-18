@@ -12,3 +12,20 @@ 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
 2.git add .
 3. git commit -m "comment"
 4. git push origin main(branch name)
+
+
+
+we cannot push directly into owner's repository because it may create  unknown errors or we may not have proper acces to it, thats why we create a xerox
+of that owner project on our github account called fork. after clicking on fork 
+a new repository with same code as owner gets created in our github, further we need 
+that code in our local system in order to make changes into it. and then we clone that xerox repo
+into our system. 
+cloning process include 
+copying the repo link  from green color button in github, then writing 
+git clone <copied link> in git bash , where git bash is open in the particular location where we want to clone our project.
+we do not need to write git remote add origin command to create connection between our local  system and xerox repo
+after "cloning"  as it comes with the connection data itself to our local system.
+
+now three of them 
+local system's folder , xerox repository in  our github (forked repo)  and the owner's repository are interconnected.
+local system > forked repo >(controlled access)> owner repository.
