@@ -1,0 +1,4 @@
+touch to create new file
+git init                              git tracks chnges in file
+ 
+git status
