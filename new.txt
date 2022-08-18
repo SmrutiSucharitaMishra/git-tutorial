@@ -5,3 +5,10 @@ git status
 git add .
 
 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
+
+
+
+1. touch .extension of file
+2.git add .
+3. git commit -m "comment"
+4. git push origin main(branch name)
